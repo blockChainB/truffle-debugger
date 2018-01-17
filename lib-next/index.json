@@ -1,0 +1,4448 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "lib/.external-ecmascript.js",
+    "static": true,
+    "longname": "lib/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "lib/context/context.js",
+    "content": "import debugModule from \"debug\";\n\nimport SolidityUtils from \"truffle-solidity-utils\";\nimport CodeUtils from \"truffle-code-utils\";\n\nconst debug = debugModule(\"debugger:context\");\n\n/**\n * Scope\n * @constructor\n */\nexport default class Context {\n  constructor(binary, options) {\n    if (binary == null) {\n      throw new Error(\"Can't create context without binary!\");\n    }\n\n    this.binary = binary;\n\n    if (options.addresses) {\n      this.addresses = options.addresses;\n    } else if (options.address) {\n      this.addresses = new Set([options.address]);\n    } else {\n      this.addresses = new Set();\n    }\n\n    debug(\"options: %o\", options);\n    this.sourceMap = options.sourceMap;\n    this.source = options.source;\n    this.sourcePath = options.sourcePath;\n    this.contractName = options.contractName;\n\n    this.instructions = Context.getInstructions(this.binary, this.source, this.sourceMap);\n\n    this.programCounterMapping = Context.getProgramCounterMapping(this.instructions);\n    debug(\"programCounterMapping: %o\", this.programCounterMapping);\n  }\n\n  merge(other) {\n    let binary = this.binary;\n\n    let addresses = new Set([...this.addresses, ...other.addresses]);\n    let sourceMap = this.sourceMap || other.sourceMap;\n    let source = this.source || other.source;\n    let sourcePath = this.sourcePath || other.sourcePath;\n    let contractName = this.contractName || other.contractName;\n\n    return new Context(binary, {\n      addresses,\n      sourceMap,\n      source,\n      sourcePath,\n      contractName\n    });\n  }\n\n  static getInstructions(binary, source, sourceMap) {\n    // raw bytecode instructions\n    var instructions = CodeUtils.parseCode(binary);\n\n    var sourceMap = sourceMap;\n\n    if (!sourceMap) {\n      debug(\"no sourcemap\");\n      sourceMap = \"\";\n\n      // Let's create a source map to use since none exists. This source map\n      // maps just as many ranges as there are instructions, and ensures every\n      // instruction is marked as \"jumping out\". This will ensure all\n      // available debugger commands step one instruction at a time.\n      //\n      // This is kindof a hack; perhaps this should be broken out into separate\n      // context types. TODO\n      for (var i = 0; i < instructions.length; i++) {\n        sourceMap += i + \":\" + i + \":1:o;\";\n      }\n    }\n\n    var lineAndColumnMapping = SolidityUtils.getCharacterOffsetToLineAndColumnMapping(source || \"\");\n    var humanReadableSourceMap = SolidityUtils.getHumanReadableSourceMap(sourceMap);\n\n    instructions.forEach(function(instruction, instructionIndex) {\n      var sourceMapInstruction = humanReadableSourceMap[instructionIndex];\n\n      instruction.index = instructionIndex;\n\n      if (sourceMapInstruction) {\n        instruction.jump = sourceMapInstruction.jump;\n        instruction.start = sourceMapInstruction.start;\n        instruction.length = sourceMapInstruction.length;\n        instruction.range = {\n          start: lineAndColumnMapping[sourceMapInstruction.start],\n          end: lineAndColumnMapping[sourceMapInstruction.start + sourceMapInstruction.length]\n        }\n      }\n    });\n\n    return instructions;\n  }\n\n  /**\n   * Returns array, mapping PC index -> Instruction index\n   */\n  static getProgramCounterMapping(instructions) {\n    var map = [];\n    instructions.forEach(function(instruction) {\n      map[instruction.pc] = instruction.index;\n    });\n\n    return map;\n  }\n\n  instructionAtProgramCounter(programCounter) {\n    debug(\"programCounter: %O\", programCounter);\n    debug(\"instructionIndex: %O\", this.programCounterMapping[programCounter]);\n    return this.instructions[this.programCounterMapping[programCounter]];\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/gnidan/src/work/develop-truffle/dependencies/truffle-debugger/lib/context/context.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "variable",
+    "name": "debug",
+    "memberof": "lib/context/context.js",
+    "static": true,
+    "longname": "lib/context/context.js~debug",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/context/context.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 50,
+    "kind": "class",
+    "name": "Context",
+    "memberof": "lib/context/context.js",
+    "static": true,
+    "longname": "lib/context/context.js~Context",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/context/context.js",
+    "importStyle": "Context",
+    "description": "Scope",
+    "lineNumber": 12,
+    "unknown": [
+      {
+        "tagName": "@constructor",
+        "tagValue": ""
+      }
+    ],
+    "interface": false
+  },
+  {
+    "__docId__": 51,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "lib/context/context.js~Context",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/context/context.js~Context#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true
+  },
+  {
+    "__docId__": 52,
+    "kind": "member",
+    "name": "binary",
+    "memberof": "lib/context/context.js~Context",
+    "static": false,
+    "longname": "lib/context/context.js~Context#binary",
+    "access": "public",
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 53,
+    "kind": "member",
+    "name": "addresses",
+    "memberof": "lib/context/context.js~Context",
+    "static": false,
+    "longname": "lib/context/context.js~Context#addresses",
+    "access": "public",
+    "description": null,
+    "lineNumber": 21,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 56,
+    "kind": "member",
+    "name": "sourceMap",
+    "memberof": "lib/context/context.js~Context",
+    "static": false,
+    "longname": "lib/context/context.js~Context#sourceMap",
+    "access": "public",
+    "description": null,
+    "lineNumber": 29,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 57,
+    "kind": "member",
+    "name": "source",
+    "memberof": "lib/context/context.js~Context",
+    "static": false,
+    "longname": "lib/context/context.js~Context#source",
+    "access": "public",
+    "description": null,
+    "lineNumber": 30,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 58,
+    "kind": "member",
+    "name": "sourcePath",
+    "memberof": "lib/context/context.js~Context",
+    "static": false,
+    "longname": "lib/context/context.js~Context#sourcePath",
+    "access": "public",
+    "description": null,
+    "lineNumber": 31,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "member",
+    "name": "contractName",
+    "memberof": "lib/context/context.js~Context",
+    "static": false,
+    "longname": "lib/context/context.js~Context#contractName",
+    "access": "public",
+    "description": null,
+    "lineNumber": 32,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 60,
+    "kind": "member",
+    "name": "instructions",
+    "memberof": "lib/context/context.js~Context",
+    "static": false,
+    "longname": "lib/context/context.js~Context#instructions",
+    "access": "public",
+    "description": null,
+    "lineNumber": 34,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 61,
+    "kind": "member",
+    "name": "programCounterMapping",
+    "memberof": "lib/context/context.js~Context",
+    "static": false,
+    "longname": "lib/context/context.js~Context#programCounterMapping",
+    "access": "public",
+    "description": null,
+    "lineNumber": 36,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 62,
+    "kind": "method",
+    "name": "merge",
+    "memberof": "lib/context/context.js~Context",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/context/context.js~Context#merge",
+    "access": "public",
+    "description": null,
+    "lineNumber": 40,
+    "undocument": true,
+    "params": [
+      {
+        "name": "other",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 63,
+    "kind": "method",
+    "name": "getInstructions",
+    "memberof": "lib/context/context.js~Context",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/context/context.js~Context.getInstructions",
+    "access": "public",
+    "description": null,
+    "lineNumber": 58,
+    "undocument": true,
+    "params": [
+      {
+        "name": "binary",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "source",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "sourceMap",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 64,
+    "kind": "method",
+    "name": "getProgramCounterMapping",
+    "memberof": "lib/context/context.js~Context",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/context/context.js~Context.getProgramCounterMapping",
+    "access": "public",
+    "description": "Returns array, mapping PC index -> Instruction index",
+    "lineNumber": 105,
+    "params": [
+      {
+        "name": "instructions",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 65,
+    "kind": "method",
+    "name": "instructionAtProgramCounter",
+    "memberof": "lib/context/context.js~Context",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/context/context.js~Context#instructionAtProgramCounter",
+    "access": "public",
+    "description": null,
+    "lineNumber": 114,
+    "undocument": true,
+    "params": [
+      {
+        "name": "programCounter",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 66,
+    "kind": "file",
+    "name": "lib/context/index.js",
+    "content": "export { default as Context } from \"./context\";\nexport { default as ContextSet } from \"./set\";\n",
+    "static": true,
+    "longname": "/Users/gnidan/src/work/develop-truffle/dependencies/truffle-debugger/lib/context/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 67,
+    "kind": "file",
+    "name": "lib/context/selectors.js",
+    "content": "import debugModule from \"debug\";\nconst debug = debugModule(\"debugger:selectors:currentContext\");\n\nimport { createSelector, createStructuredSelector } from \"reselect\";\n\nimport evm from \"../evm/selectors\";\n\n\nconst contextSet = (state, props) => props.contexts\n\nconst currentContext = createSelector(\n  [evm.current.call, contextSet],\n\n  ({address, binary}, contexts) => {\n    if (address) {\n      return contexts.contextForAddress(address);\n    } else {\n      return contexts.contextForBinary(binary);\n    }\n  }\n)\n\nconst affectedInstances = createSelector(\n  [contextSet],\n\n  (contexts) => contexts.addressedContracts()\n);\n\nconst missingSources = createSelector(\n  [affectedInstances],\n\n  (instances) => Object.entries(instances)\n    .filter(([address, instance]) => !instance.source)\n    .map(([address, instance]) => address)\n);\n\nlet selector = createStructuredSelector({\n  current: currentContext,\n  affectedInstances: affectedInstances,\n  missingSources: missingSources\n});\nselector.current = currentContext;\nselector.affectedInstances = affectedInstances;\nselector.missingSources = missingSources;\n\nexport default selector;\n",
+    "static": true,
+    "longname": "/Users/gnidan/src/work/develop-truffle/dependencies/truffle-debugger/lib/context/selectors.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 68,
+    "kind": "variable",
+    "name": "debug",
+    "memberof": "lib/context/selectors.js",
+    "static": true,
+    "longname": "lib/context/selectors.js~debug",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/context/selectors.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 69,
+    "kind": "function",
+    "name": "contextSet",
+    "memberof": "lib/context/selectors.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/context/selectors.js~contextSet",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/context/selectors.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "params": [
+      {
+        "name": "state",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 70,
+    "kind": "variable",
+    "name": "currentContext",
+    "memberof": "lib/context/selectors.js",
+    "static": true,
+    "longname": "lib/context/selectors.js~currentContext",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/context/selectors.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 71,
+    "kind": "variable",
+    "name": "affectedInstances",
+    "memberof": "lib/context/selectors.js",
+    "static": true,
+    "longname": "lib/context/selectors.js~affectedInstances",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/context/selectors.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 23,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 72,
+    "kind": "variable",
+    "name": "missingSources",
+    "memberof": "lib/context/selectors.js",
+    "static": true,
+    "longname": "lib/context/selectors.js~missingSources",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/context/selectors.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 29,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 73,
+    "kind": "variable",
+    "name": "selector",
+    "memberof": "lib/context/selectors.js",
+    "static": true,
+    "longname": "lib/context/selectors.js~selector",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/context/selectors.js",
+    "importStyle": "selector",
+    "description": null,
+    "lineNumber": 37,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 74,
+    "kind": "file",
+    "name": "lib/context/set.js",
+    "content": "import Context from \"./context\";\n\n/**\n * Indexed container collection of Contexts\n * Each Context is indexed by its binary and its associated addresses\n */\nexport default class ContextSet {\n  constructor(...contexts) {\n    // initialize empty\n    this.contexts = [];\n    this.indexForAddress = {};\n    this.indexForBinary = {};\n\n    // procedurally add\n    this.add(...contexts);\n  };\n\n  static forContracts(...contracts) {\n    let contexts = [];\n\n    for (let contract of contracts) {\n      // create Context for binary and deployed binary\n      contexts.push(new Context(contract.binary, {\n        sourceMap: contract.sourceMap,\n        source: contract.source,\n        sourePath: contract.sourcePath,\n        contractName: contract.contractName\n      }));\n      contexts.push(new Context(contract.deployedBinary, {\n        sourceMap: contract.deployedSourceMap,\n        source: contract.source,\n        sourePath: contract.sourcePath,\n        contractName: contract.contractName\n      }));\n    }\n\n    return new ContextSet(...contexts);\n  }\n\n  /**\n   * Retrieve context for code at a given address\n   */\n  contextForAddress(address) {\n    let index = this.indexForAddress[address];\n    return this.contexts[index];\n  }\n\n  /**\n   * Address -> Contract mapping\n   */\n  addressedContracts() {\n    let map = {};\n\n    for (let address of Object.keys(this.indexForAddress)) {\n      let index = this.indexForAddress[address];\n      let context = this.contexts[index];\n\n      map[address] = {\n        contractName: context.contractName,\n        source: context.source,\n        binary: context.binary\n      };\n    }\n\n    return map;\n  }\n\n\n  /**\n   * Retrieve context with a given binary\n   */\n  contextForBinary(binary) {\n    let index = this.indexForBinary[binary];\n    return this.contexts[index];\n  }\n\n  /**\n   * Add contexts to the set\n   *\n   * Merges with existing contexts\n   */\n  add(...contexts) {\n    for (let context of contexts) {\n      this.addContext(context);\n    }\n  };\n\n\n  /**\n   * Add Context\n   *\n   * If Context already exists in set, merges Context data with existing\n   */\n  addContext(context) {\n    var self = this;\n    var index;\n\n    if (this.indexForBinary[context.binary] != undefined) {\n      index = this.indexForBinary[context.binary];\n      context = context.merge(this.contexts[index]);\n    } else {\n      index = this.contexts.length;\n      this.indexForBinary[context.binary] = index;\n    }\n\n    this.contexts[index] = context;\n\n    for (let address of context.addresses) {\n      this.indexForAddress[address] = index;\n    }\n  }\n\n  /**\n   * Return a new ContextSet with the merged Contexts of this and another\n   */\n  merge(other) {\n    return new ContextSet([...this.contexts, ...other.contexts]);\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/gnidan/src/work/develop-truffle/dependencies/truffle-debugger/lib/context/set.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 75,
+    "kind": "class",
+    "name": "ContextSet",
+    "memberof": "lib/context/set.js",
+    "static": true,
+    "longname": "lib/context/set.js~ContextSet",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/context/set.js",
+    "importStyle": "ContextSet",
+    "description": "Indexed container collection of Contexts\nEach Context is indexed by its binary and its associated addresses",
+    "lineNumber": 7,
+    "interface": false
+  },
+  {
+    "__docId__": 76,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "lib/context/set.js~ContextSet",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/context/set.js~ContextSet#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true
+  },
+  {
+    "__docId__": 77,
+    "kind": "member",
+    "name": "contexts",
+    "memberof": "lib/context/set.js~ContextSet",
+    "static": false,
+    "longname": "lib/context/set.js~ContextSet#contexts",
+    "access": "public",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*[]"
+      ]
+    }
+  },
+  {
+    "__docId__": 78,
+    "kind": "member",
+    "name": "indexForAddress",
+    "memberof": "lib/context/set.js~ContextSet",
+    "static": false,
+    "longname": "lib/context/set.js~ContextSet#indexForAddress",
+    "access": "public",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{}"
+      ]
+    }
+  },
+  {
+    "__docId__": 79,
+    "kind": "member",
+    "name": "indexForBinary",
+    "memberof": "lib/context/set.js~ContextSet",
+    "static": false,
+    "longname": "lib/context/set.js~ContextSet#indexForBinary",
+    "access": "public",
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{}"
+      ]
+    }
+  },
+  {
+    "__docId__": 80,
+    "kind": "method",
+    "name": "forContracts",
+    "memberof": "lib/context/set.js~ContextSet",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/context/set.js~ContextSet.forContracts",
+    "access": "public",
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "params": [
+      {
+        "name": "contracts",
+        "types": [
+          "...*"
+        ],
+        "spread": true
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 81,
+    "kind": "method",
+    "name": "contextForAddress",
+    "memberof": "lib/context/set.js~ContextSet",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/context/set.js~ContextSet#contextForAddress",
+    "access": "public",
+    "description": "Retrieve context for code at a given address",
+    "lineNumber": 43,
+    "params": [
+      {
+        "name": "address",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 82,
+    "kind": "method",
+    "name": "addressedContracts",
+    "memberof": "lib/context/set.js~ContextSet",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/context/set.js~ContextSet#addressedContracts",
+    "access": "public",
+    "description": "Address -> Contract mapping",
+    "lineNumber": 51,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 83,
+    "kind": "method",
+    "name": "contextForBinary",
+    "memberof": "lib/context/set.js~ContextSet",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/context/set.js~ContextSet#contextForBinary",
+    "access": "public",
+    "description": "Retrieve context with a given binary",
+    "lineNumber": 72,
+    "params": [
+      {
+        "name": "binary",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 84,
+    "kind": "method",
+    "name": "add",
+    "memberof": "lib/context/set.js~ContextSet",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/context/set.js~ContextSet#add",
+    "access": "public",
+    "description": "Add contexts to the set\n\nMerges with existing contexts",
+    "lineNumber": 82,
+    "params": [
+      {
+        "name": "contexts",
+        "types": [
+          "...*"
+        ],
+        "spread": true
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 85,
+    "kind": "method",
+    "name": "addContext",
+    "memberof": "lib/context/set.js~ContextSet",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/context/set.js~ContextSet#addContext",
+    "access": "public",
+    "description": "Add Context\n\nIf Context already exists in set, merges Context data with existing",
+    "lineNumber": 94,
+    "params": [
+      {
+        "name": "context",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 86,
+    "kind": "method",
+    "name": "merge",
+    "memberof": "lib/context/set.js~ContextSet",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/context/set.js~ContextSet#merge",
+    "access": "public",
+    "description": "Return a new ContextSet with the merged Contexts of this and another",
+    "lineNumber": 116,
+    "params": [
+      {
+        "name": "other",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 87,
+    "kind": "file",
+    "name": "lib/controller/actions/index.js",
+    "content": "export const BEGIN_STEP = \"BEGIN_STEP\";\nexport function beginStep(type) {\n  return {\n    type: BEGIN_STEP,\n    stepType: type\n  };\n}\n\nexport const ADVANCE = \"ADVANCE\";\nexport function advance() {\n  return {type: ADVANCE};\n}\n\nexport const STEP_NEXT = \"STEP_NEXT\";\nexport function stepNext() {\n  return {type: STEP_NEXT};\n}\n\nexport const STEP_OVER = \"STEP_OVER\";\nexport function stepOver() {\n  return {type: STEP_OVER};\n}\n\nexport const STEP_INTO = \"STEP_INTO\";\nexport function stepInto() {\n  return {type: STEP_INTO};\n}\n\nexport const STEP_OUT = \"STEP_OUT\";\nexport function stepOut() {\n  return {type: STEP_OUT};\n}\n\nexport const INTERRUPT = \"INTERRUPT\";\nexport function interrupt () {\n  return {type: INTERRUPT};\n}\n\n\n",
+    "static": true,
+    "longname": "/Users/gnidan/src/work/develop-truffle/dependencies/truffle-debugger/lib/controller/actions/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 88,
+    "kind": "variable",
+    "name": "BEGIN_STEP",
+    "memberof": "lib/controller/actions/index.js",
+    "static": true,
+    "longname": "lib/controller/actions/index.js~BEGIN_STEP",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/controller/actions/index.js",
+    "importStyle": "{BEGIN_STEP}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 89,
+    "kind": "function",
+    "name": "beginStep",
+    "memberof": "lib/controller/actions/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/controller/actions/index.js~beginStep",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/controller/actions/index.js",
+    "importStyle": "{beginStep}",
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "params": [
+      {
+        "name": "type",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{\"type\": *, \"stepType\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 90,
+    "kind": "variable",
+    "name": "ADVANCE",
+    "memberof": "lib/controller/actions/index.js",
+    "static": true,
+    "longname": "lib/controller/actions/index.js~ADVANCE",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/controller/actions/index.js",
+    "importStyle": "{ADVANCE}",
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 91,
+    "kind": "function",
+    "name": "advance",
+    "memberof": "lib/controller/actions/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/controller/actions/index.js~advance",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/controller/actions/index.js",
+    "importStyle": "{advance}",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "{\"type\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 92,
+    "kind": "variable",
+    "name": "STEP_NEXT",
+    "memberof": "lib/controller/actions/index.js",
+    "static": true,
+    "longname": "lib/controller/actions/index.js~STEP_NEXT",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/controller/actions/index.js",
+    "importStyle": "{STEP_NEXT}",
+    "description": null,
+    "lineNumber": 14,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 93,
+    "kind": "function",
+    "name": "stepNext",
+    "memberof": "lib/controller/actions/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/controller/actions/index.js~stepNext",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/controller/actions/index.js",
+    "importStyle": "{stepNext}",
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "{\"type\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 94,
+    "kind": "variable",
+    "name": "STEP_OVER",
+    "memberof": "lib/controller/actions/index.js",
+    "static": true,
+    "longname": "lib/controller/actions/index.js~STEP_OVER",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/controller/actions/index.js",
+    "importStyle": "{STEP_OVER}",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 95,
+    "kind": "function",
+    "name": "stepOver",
+    "memberof": "lib/controller/actions/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/controller/actions/index.js~stepOver",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/controller/actions/index.js",
+    "importStyle": "{stepOver}",
+    "description": null,
+    "lineNumber": 20,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "{\"type\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 96,
+    "kind": "variable",
+    "name": "STEP_INTO",
+    "memberof": "lib/controller/actions/index.js",
+    "static": true,
+    "longname": "lib/controller/actions/index.js~STEP_INTO",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/controller/actions/index.js",
+    "importStyle": "{STEP_INTO}",
+    "description": null,
+    "lineNumber": 24,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 97,
+    "kind": "function",
+    "name": "stepInto",
+    "memberof": "lib/controller/actions/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/controller/actions/index.js~stepInto",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/controller/actions/index.js",
+    "importStyle": "{stepInto}",
+    "description": null,
+    "lineNumber": 25,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "{\"type\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 98,
+    "kind": "variable",
+    "name": "STEP_OUT",
+    "memberof": "lib/controller/actions/index.js",
+    "static": true,
+    "longname": "lib/controller/actions/index.js~STEP_OUT",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/controller/actions/index.js",
+    "importStyle": "{STEP_OUT}",
+    "description": null,
+    "lineNumber": 29,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 99,
+    "kind": "function",
+    "name": "stepOut",
+    "memberof": "lib/controller/actions/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/controller/actions/index.js~stepOut",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/controller/actions/index.js",
+    "importStyle": "{stepOut}",
+    "description": null,
+    "lineNumber": 30,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "{\"type\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 100,
+    "kind": "variable",
+    "name": "INTERRUPT",
+    "memberof": "lib/controller/actions/index.js",
+    "static": true,
+    "longname": "lib/controller/actions/index.js~INTERRUPT",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/controller/actions/index.js",
+    "importStyle": "{INTERRUPT}",
+    "description": null,
+    "lineNumber": 34,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 101,
+    "kind": "function",
+    "name": "interrupt",
+    "memberof": "lib/controller/actions/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/controller/actions/index.js~interrupt",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/controller/actions/index.js",
+    "importStyle": "{interrupt}",
+    "description": null,
+    "lineNumber": 35,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "{\"type\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 102,
+    "kind": "file",
+    "name": "lib/controller/sagas.js",
+    "content": "import debugModule from \"debug\";\nconst debug = debugModule(\"debugger:controller:sagas\");\n\nimport { put, call, race, take } from 'redux-saga/effects';\nimport { view } from \"../effects\";\n\nimport * as actions from \"./actions\";\nimport * as traceActions from \"../trace/actions\";\n\nimport trace from \"../trace/selectors\";\nimport evm from \"../evm/selectors\";\nimport solidity from \"../solidity/selectors\";\n\nconst controlSagas = {\n  [actions.ADVANCE]: advance,\n  [actions.STEP_NEXT]: stepNext,\n  [actions.STEP_OVER]: stepOver,\n  [actions.STEP_INTO]: stepInto,\n  [actions.STEP_OUT]: stepOut\n};\n\nexport default function* saga() {\n  while (true) {\n    debug(\"waiting for control action\");\n    let action = yield take(Object.keys(controlSagas));\n    debug(\"got control action\");\n    let saga = controlSagas[action.type];\n\n    yield put(actions.beginStep(action.type));\n\n    yield race({\n      exec: call(saga),\n      interrupt: take(actions.INTERRUPT)\n    });\n  }\n}\n\n/**\n * Advance the state by one instruction\n */\nfunction* advance() {\n  // send action to advance trace\n  yield put(traceActions.next());\n\n  // wait for trace to advance\n  yield take(traceActions.TOCK);\n}\n\n/**\n * stepNext - step to the next logical code segment\n *\n * Note: It might take multiple instructions to express the same section of code.\n * \"Stepping\", then, is stepping to the next logical item, not stepping to the next\n * instruction. See advance() if you'd like to advance by one instruction.\n */\nfunction* stepNext () {\n  const startingRange = yield view(solidity.nextStep.sourceRange);\n  var nextRange;\n\n  do {\n    // advance at least once step\n    yield* advance();\n\n    // and check the next source range\n    nextRange = yield view(solidity.nextStep.sourceRange);\n\n    // if the next step's source range is still the same, keep going\n  } while (\n    nextRange.start == startingRange.start &&\n    nextRange.length == startingRange.length\n  );\n}\n\n/**\n * stepInto - step into the current function\n *\n * Conceptually this is easy, but from a programming standpoint it's hard.\n * Code like `getBalance(msg.sender)` might be highlighted, but there could\n * be a number of different intermediate steps (like evaluating `msg.sender`)\n * before `getBalance` is stepped into. This function will step into the first\n * function available (where instruction.jump == \"i\"), ignoring any intermediate\n * steps that fall within the same code range. If there's a step encountered\n * that exists outside of the range, then stepInto will only execute until that\n * step.\n */\nfunction* stepInto () {\n  if (yield view(evm.nextStep.isJump)) {\n    yield* stepNext();\n\n    return;\n  }\n\n  if (yield view(solidity.nextStep.isMultiline)) {\n    yield* stepOver();\n\n    return;\n  }\n\n  const startingDepth = yield view(solidity.currentState.functionDepth);\n  const startingRange = yield view(solidity.nextStep.sourceRange);\n  var currentDepth;\n  var nextRange;\n\n  do {\n    yield* stepNext();\n\n    currentDepth = yield view(solidity.currentState.functionDepth);\n    nextRange = yield view(solidity.nextStep.sourceRange);\n\n  } while (\n    // the function stack has not increased,\n    currentDepth <= initialDepth &&\n\n    // the next source range begins on or after the starting range\n    nextRange.start >= startingRange.start &&\n\n    // and the next range ends on or before the starting range ends\n    (nextRange.start + nextRange.length) <=\n      (startingRange.start + startingRange.length)\n  );\n}\n\n/**\n * Step out of the current function\n *\n * This will run until the debugger encounters a decrease in function depth.\n */\nfunction* stepOut () {\n  if (yield view(solidity.nextStep.isMultiline)) {\n    yield *stepOver();\n\n    return;\n  }\n\n  const startingDepth = yield view(solidity.currentState.functionDepth);\n  var currentDepth;\n\n  do {\n    yield* stepNext();\n\n    currentDepth = yield view(solidity.currentState.functionDepth);\n\n  } while(currentDepth <= startingDepth);\n}\n\n/**\n * stepOver - step over the current line\n *\n * Step over the current line. This will step to the next instruction that\n * exists on a different line of code within the same function depth.\n */\nfunction* stepOver () {\n  const startingDepth = yield view(solidity.currentState.functionDepth);\n  const startingRange = yield view(solidity.nextStep.sourceRange);\n  var currentDepth;\n  var nextRange;\n\n  do {\n    yield* stepNext();\n\n    currentDepth = yield view(solidity.currentState.functionDepth);\n    nextRange = yield view(solidity.nextStep.sourceRange);\n\n  } while (\n    // keep stepping provided:\n    //\n    // we haven't jumped out\n    !(currentDepth < startingDepth) &&\n\n    // either: function depth is greater than starting (ignore function calls)\n    // or, if we're at the same depth, keep stepping until we're on a new\n    // line.\n    (currentDepth > startingDepth ||\n      nextRange.lines.start.line == startingRange.lines.start.line)\n  )\n}\n",
+    "static": true,
+    "longname": "/Users/gnidan/src/work/develop-truffle/dependencies/truffle-debugger/lib/controller/sagas.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 103,
+    "kind": "variable",
+    "name": "debug",
+    "memberof": "lib/controller/sagas.js",
+    "static": true,
+    "longname": "lib/controller/sagas.js~debug",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/controller/sagas.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 104,
+    "kind": "variable",
+    "name": "controlSagas",
+    "memberof": "lib/controller/sagas.js",
+    "static": true,
+    "longname": "lib/controller/sagas.js~controlSagas",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/controller/sagas.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 14,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"undefined\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 105,
+    "kind": "function",
+    "name": "saga",
+    "memberof": "lib/controller/sagas.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "lib/controller/sagas.js~saga",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/controller/sagas.js",
+    "importStyle": "saga",
+    "description": null,
+    "lineNumber": 22,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 106,
+    "kind": "function",
+    "name": "advance",
+    "memberof": "lib/controller/sagas.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "lib/controller/sagas.js~advance",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/controller/sagas.js",
+    "importStyle": null,
+    "description": "Advance the state by one instruction",
+    "lineNumber": 41,
+    "params": [],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 107,
+    "kind": "function",
+    "name": "stepNext",
+    "memberof": "lib/controller/sagas.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "lib/controller/sagas.js~stepNext",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/controller/sagas.js",
+    "importStyle": null,
+    "description": "stepNext - step to the next logical code segment\n\nNote: It might take multiple instructions to express the same section of code.\n\"Stepping\", then, is stepping to the next logical item, not stepping to the next\ninstruction. See advance() if you'd like to advance by one instruction.",
+    "lineNumber": 56,
+    "params": [],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 108,
+    "kind": "function",
+    "name": "stepInto",
+    "memberof": "lib/controller/sagas.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "lib/controller/sagas.js~stepInto",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/controller/sagas.js",
+    "importStyle": null,
+    "description": "stepInto - step into the current function\n\nConceptually this is easy, but from a programming standpoint it's hard.\nCode like `getBalance(msg.sender)` might be highlighted, but there could\nbe a number of different intermediate steps (like evaluating `msg.sender`)\nbefore `getBalance` is stepped into. This function will step into the first\nfunction available (where instruction.jump == \"i\"), ignoring any intermediate\nsteps that fall within the same code range. If there's a step encountered\nthat exists outside of the range, then stepInto will only execute until that\nstep.",
+    "lineNumber": 86,
+    "params": [],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 109,
+    "kind": "function",
+    "name": "stepOut",
+    "memberof": "lib/controller/sagas.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "lib/controller/sagas.js~stepOut",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/controller/sagas.js",
+    "importStyle": null,
+    "description": "Step out of the current function\n\nThis will run until the debugger encounters a decrease in function depth.",
+    "lineNumber": 128,
+    "params": [],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 110,
+    "kind": "function",
+    "name": "stepOver",
+    "memberof": "lib/controller/sagas.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "lib/controller/sagas.js~stepOver",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/controller/sagas.js",
+    "importStyle": null,
+    "description": "stepOver - step over the current line\n\nStep over the current line. This will step to the next instruction that\nexists on a different line of code within the same function depth.",
+    "lineNumber": 152,
+    "params": [],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 111,
+    "kind": "file",
+    "name": "lib/debugger.js",
+    "content": "import debugModule from 'debug';\nimport expect from \"truffle-expect\";\n\nimport { ContextSet } from \"./context\";\nimport Session from \"./session\";\nimport Web3Adapter from \"./web3\";\n\nimport traceSelector from \"./trace/selectors\";\nimport evmSelector from \"./evm/selectors\";\nimport soliditySelector from \"./solidity/selectors\";\nimport contextSelector from \"./context/selectors\";\n\nconst debug = debugModule(\"debugger\");\n\nexport default class Debugger {\n  /**\n   * @param {ContextSet} contexts - reference information for debugger\n   * @param {Array<TraceStep>} trace - trace information\n   * @param {Object} call - initial call (specifies `address` or `binary`)\n   * @private\n   */\n  constructor(contexts, trace, call) {\n    this._contexts = contexts;\n    this._trace = trace;\n    this._call = call;\n  }\n\n  /**\n   * Instantiates a Debugger for a given transaction hash.\n   *\n   * @param {String} txHash - transaction hash with leading \"0x\"\n   * @param {{contracts: Array<Contract>, provider: Web3Provider}} options -\n   * @return {Debugger} instance\n   */\n  static async forTx(txHash, options = {}) {\n    expect.options(options, [\n      \"contracts\",\n      \"provider\"\n    ]);\n\n    let contexts = ContextSet.forContracts(...options.contracts);\n\n    const adapter = new Web3Adapter(options.provider);\n    const { trace, address, binary } = await adapter.getTransactionInfo(txHash);\n    debug(\"address: %O\", address);\n\n    const traceContexts = await adapter.gatherContexts(trace, address);\n\n    contexts.add(...traceContexts);\n\n    const call = { address, binary };\n\n    return new this(contexts, trace, call);\n  }\n\n\n  /**\n   * Connects to the instantiated Debugger.\n   *\n   * @return {Session} new session instance\n   */\n  connect() {\n    return new Session(this._contexts, this._trace, this.initialState);\n  }\n\n  /**\n   * @return {State} initial state for the transaction being debugged\n   */\n  get initialState() {\n    return {\n      trace: {\n        index: 0\n      },\n      evm: {\n        callstack: [this._call]\n      }\n    }\n  }\n\n  static get selectors() {\n    return {\n      trace: traceSelector,\n      evm: evmSelector,\n      solidity: soliditySelector,\n      context: contextSelector\n    };\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/gnidan/src/work/develop-truffle/dependencies/truffle-debugger/lib/debugger.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 112,
+    "kind": "variable",
+    "name": "debug",
+    "memberof": "lib/debugger.js",
+    "static": true,
+    "longname": "lib/debugger.js~debug",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/debugger.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 113,
+    "kind": "class",
+    "name": "Debugger",
+    "memberof": "lib/debugger.js",
+    "static": true,
+    "longname": "lib/debugger.js~Debugger",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/debugger.js",
+    "importStyle": "Debugger",
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "interface": false
+  },
+  {
+    "__docId__": 114,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "lib/debugger.js~Debugger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/debugger.js~Debugger#constructor",
+    "access": "private",
+    "description": "",
+    "lineNumber": 22,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "ContextSet"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "contexts",
+        "description": "reference information for debugger"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Array<TraceStep>"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "trace",
+        "description": "trace information"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "call",
+        "description": "initial call (specifies `address` or `binary`)"
+      }
+    ]
+  },
+  {
+    "__docId__": 115,
+    "kind": "member",
+    "name": "_contexts",
+    "memberof": "lib/debugger.js~Debugger",
+    "static": false,
+    "longname": "lib/debugger.js~Debugger#_contexts",
+    "access": "private",
+    "description": null,
+    "lineNumber": 23,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 116,
+    "kind": "member",
+    "name": "_trace",
+    "memberof": "lib/debugger.js~Debugger",
+    "static": false,
+    "longname": "lib/debugger.js~Debugger#_trace",
+    "access": "private",
+    "description": null,
+    "lineNumber": 24,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 117,
+    "kind": "member",
+    "name": "_call",
+    "memberof": "lib/debugger.js~Debugger",
+    "static": false,
+    "longname": "lib/debugger.js~Debugger#_call",
+    "access": "private",
+    "description": null,
+    "lineNumber": 25,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 118,
+    "kind": "method",
+    "name": "forTx",
+    "memberof": "lib/debugger.js~Debugger",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "lib/debugger.js~Debugger.forTx",
+    "access": "public",
+    "description": "Instantiates a Debugger for a given transaction hash.",
+    "lineNumber": 35,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "txHash",
+        "description": "transaction hash with leading \"0x\""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "{contracts: Array<Contract>, provider: Web3Provider}"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "options",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Debugger"
+      ],
+      "spread": false,
+      "description": "instance"
+    }
+  },
+  {
+    "__docId__": 119,
+    "kind": "method",
+    "name": "connect",
+    "memberof": "lib/debugger.js~Debugger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/debugger.js~Debugger#connect",
+    "access": "public",
+    "description": "Connects to the instantiated Debugger.",
+    "lineNumber": 62,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Session"
+      ],
+      "spread": false,
+      "description": "new session instance"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 120,
+    "kind": "get",
+    "name": "initialState",
+    "memberof": "lib/debugger.js~Debugger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/debugger.js~Debugger#initialState",
+    "access": "public",
+    "description": "",
+    "lineNumber": 69,
+    "return": {
+      "nullable": null,
+      "types": [
+        "State"
+      ],
+      "spread": false,
+      "description": "initial state for the transaction being debugged"
+    },
+    "type": {
+      "types": [
+        "{\"trace\": *, \"evm\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 121,
+    "kind": "get",
+    "name": "selectors",
+    "memberof": "lib/debugger.js~Debugger",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/debugger.js~Debugger.selectors",
+    "access": "public",
+    "description": null,
+    "lineNumber": 80,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"trace\": *, \"evm\": *, \"solidity\": *, \"context\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 122,
+    "kind": "file",
+    "name": "lib/effects.js",
+    "content": "import debugModule from \"debug\";\nconst debug = debugModule(\"debugger:effects\");\n\nimport { select } from \"redux-saga/effects\";\n\nimport { createSelector, createStructuredSelector } from \"reselect\";\n\nexport function view(selector) {\n  return select(({ state, props }) => {\n\n    debug(\"state: %O\", state);\n    return selector(state, props);\n  });\n}\n",
+    "static": true,
+    "longname": "/Users/gnidan/src/work/develop-truffle/dependencies/truffle-debugger/lib/effects.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 123,
+    "kind": "variable",
+    "name": "debug",
+    "memberof": "lib/effects.js",
+    "static": true,
+    "longname": "lib/effects.js~debug",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/effects.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 124,
+    "kind": "function",
+    "name": "view",
+    "memberof": "lib/effects.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/effects.js~view",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/effects.js",
+    "importStyle": "{view}",
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "params": [
+      {
+        "name": "selector",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 125,
+    "kind": "file",
+    "name": "lib/evm/actions/index.js",
+    "content": "export const CALL = \"CALL\";\nexport function call(address) {\n  return {\n    type: CALL,\n    address\n  };\n}\n\nexport const CREATE = \"CREATE\";\nexport function create(binary) {\n  return {\n    type: CREATE,\n    binary\n  };\n}\n\nexport const RETURN = \"RETURN\";\nexport function returnCall() {\n  return {\n    type: RETURN\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/gnidan/src/work/develop-truffle/dependencies/truffle-debugger/lib/evm/actions/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 126,
+    "kind": "variable",
+    "name": "CALL",
+    "memberof": "lib/evm/actions/index.js",
+    "static": true,
+    "longname": "lib/evm/actions/index.js~CALL",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/evm/actions/index.js",
+    "importStyle": "{CALL}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 127,
+    "kind": "function",
+    "name": "call",
+    "memberof": "lib/evm/actions/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/evm/actions/index.js~call",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/evm/actions/index.js",
+    "importStyle": "{call}",
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "params": [
+      {
+        "name": "address",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{\"type\": *, \"address\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 128,
+    "kind": "variable",
+    "name": "CREATE",
+    "memberof": "lib/evm/actions/index.js",
+    "static": true,
+    "longname": "lib/evm/actions/index.js~CREATE",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/evm/actions/index.js",
+    "importStyle": "{CREATE}",
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 129,
+    "kind": "function",
+    "name": "create",
+    "memberof": "lib/evm/actions/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/evm/actions/index.js~create",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/evm/actions/index.js",
+    "importStyle": "{create}",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "params": [
+      {
+        "name": "binary",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{\"type\": *, \"binary\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 130,
+    "kind": "variable",
+    "name": "RETURN",
+    "memberof": "lib/evm/actions/index.js",
+    "static": true,
+    "longname": "lib/evm/actions/index.js~RETURN",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/evm/actions/index.js",
+    "importStyle": "{RETURN}",
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 131,
+    "kind": "function",
+    "name": "returnCall",
+    "memberof": "lib/evm/actions/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/evm/actions/index.js~returnCall",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/evm/actions/index.js",
+    "importStyle": "{returnCall}",
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "{\"type\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 132,
+    "kind": "file",
+    "name": "lib/evm/reducers.js",
+    "content": "import { combineReducers } from \"redux\";\n\nimport * as actions from \"./actions\";\n\nexport function callstack(state = [], action) {\n  switch(action.type) {\n    case actions.CALL:\n      let address = action.address;\n      return state + [ {address} ];\n\n    case actions.CREATE:\n      const binary = step.createBinary();\n      return state + [ {binary} ];\n\n    case actions.RETURN:\n      return state.slice(0, -1); // pop\n\n    default:\n      return state;\n  };\n}\n\nconst reducer = combineReducers({\n  callstack\n});\n\nexport default reducer;\n",
+    "static": true,
+    "longname": "/Users/gnidan/src/work/develop-truffle/dependencies/truffle-debugger/lib/evm/reducers.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 133,
+    "kind": "function",
+    "name": "callstack",
+    "memberof": "lib/evm/reducers.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/evm/reducers.js~callstack",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/evm/reducers.js",
+    "importStyle": "{callstack}",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "params": [
+      {
+        "name": "state",
+        "optional": true,
+        "types": [
+          "*[]"
+        ],
+        "defaultRaw": [],
+        "defaultValue": "[]"
+      },
+      {
+        "name": "action",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 134,
+    "kind": "variable",
+    "name": "reducer",
+    "memberof": "lib/evm/reducers.js",
+    "static": true,
+    "longname": "lib/evm/reducers.js~reducer",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/evm/reducers.js",
+    "importStyle": "reducer",
+    "description": null,
+    "lineNumber": 23,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 135,
+    "kind": "file",
+    "name": "lib/evm/sagas.js",
+    "content": "import debugModule from \"debug\";\nconst debug = debugModule(\"debugger:evm:sagas\");\n\nimport { call, put, take } from \"redux-saga/effects\";\nimport { view } from \"../effects\";\n\nimport { TICK } from \"../trace/actions\";\nimport * as actions from \"./actions\";\n\nimport evm from \"./selectors\";\n\nexport function* callstackSaga () {\n  while (true) {\n    yield take(TICK);\n    debug(\"got TICK\");\n\n    if (yield view(evm.nextStep.isCall)) {\n      debug(\"got call\");\n      let address = yield view(evm.nextStep.callAddress);\n\n      yield put(actions.call(address));\n\n    } else if (yield view(evm.nextStep.isCreate)) {\n      debug(\"got create\");\n      let binary = yield view(evm.nextStep.createBinary);\n\n      yield put(actions.create(binary));\n\n    } else if (yield view(evm.nextStep.isHalting)) {\n      debug(\"got return\");\n      yield put(actions.returnCall());\n    }\n  }\n}\n\nexport default function* saga () {\n  yield call(callstackSaga);\n}\n",
+    "static": true,
+    "longname": "/Users/gnidan/src/work/develop-truffle/dependencies/truffle-debugger/lib/evm/sagas.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 136,
+    "kind": "variable",
+    "name": "debug",
+    "memberof": "lib/evm/sagas.js",
+    "static": true,
+    "longname": "lib/evm/sagas.js~debug",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/evm/sagas.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 137,
+    "kind": "function",
+    "name": "callstackSaga",
+    "memberof": "lib/evm/sagas.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "lib/evm/sagas.js~callstackSaga",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/evm/sagas.js",
+    "importStyle": "{callstackSaga}",
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 138,
+    "kind": "function",
+    "name": "saga",
+    "memberof": "lib/evm/sagas.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "lib/evm/sagas.js~saga",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/evm/sagas.js",
+    "importStyle": "saga",
+    "description": null,
+    "lineNumber": 36,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 139,
+    "kind": "file",
+    "name": "lib/evm/selectors.js",
+    "content": "import { createSelector, createStructuredSelector } from \"reselect\";\n\nimport trace from \"../trace/selectors\";\n\nconst callstack = (state, props) => state.evm.callstack;\n\nconst currentCall = createSelector(\n  [callstack],\n\n  (stack) => stack.length ? stack[stack.length - 1] : {}\n)\n\nlet currentState = createStructuredSelector({\n  call: currentCall,\n  callstack: callstack\n});\ncurrentState.call = currentCall;\ncurrentState.callstack = callstack;\n\n\nconst programCounter = createSelector(\n  [trace.step],\n\n  (step) => step.pc\n);\n\nconst isJump = createSelector(\n  [trace.step],\n\n  (step) => step.op != \"JUMPDEST\" && step.op.indexOf(\"JUMP\") == 0\n);\n\nconst isCall = createSelector(\n  [trace.step],\n\n  (step) => step.op == \"CALL\" || step.op == \"DELEGATECALL\"\n);\n\nconst isCreate = createSelector(\n  [trace.step],\n\n  (step) => step.op == \"CREATE\"\n);\n\nconst isHalting = createSelector(\n  [trace.step],\n\n  (step) => step.op == \"STOP\" || step.op == \"RETURN\"\n);\n\nconst callAddress = createSelector(\n  [isCall, trace.step],\n\n  (matches, step) => {\n    if (!matches) return null;\n\n    let address = step.stack[step.stack.length - 2]\n    address = \"0x\" + address.substring(24);\n    return address;\n  }\n);\n\nconst createBinary = createSelector(\n  [isCreate, trace.step],\n\n  (matches, step) => {\n    if (!matches) return null;\n\n    const memory = step.memory.join(\"\");\n\n    // Get the code that's going to be created from memory.\n    // Note we multiply by 2 because these offsets are in bytes.\n    const inputOffset = parseInt(step.stack[step.stack.length - 2], 16) * 2;\n    const inputSize = parseInt(step.stack[step.stack.length - 3], 16) * 2;\n\n    return \"0x\" + memory.substring(inputOffset, inputOffset + inputSize);\n  }\n);\n\n\nlet nextStep = createStructuredSelector({\n  programCounter,\n\n  isJump,\n  isCall,\n  isCreate,\n  isHalting,\n\n  callAddress,\n  createBinary\n});\nnextStep.programCounter = programCounter;\nnextStep.isJump = isJump;\nnextStep.isCall = isCall;\nnextStep.isCreate = isCreate;\nnextStep.isHalting = isHalting;\nnextStep.callAddress = callAddress;\nnextStep.createBinary = createBinary;\n\nlet selector = createStructuredSelector({\n  current: currentState,\n  nextStep\n});\nselector.current = currentState;\nselector.nextStep = nextStep;\n\nexport default selector;\n",
+    "static": true,
+    "longname": "/Users/gnidan/src/work/develop-truffle/dependencies/truffle-debugger/lib/evm/selectors.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 140,
+    "kind": "function",
+    "name": "callstack",
+    "memberof": "lib/evm/selectors.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/evm/selectors.js~callstack",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/evm/selectors.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "params": [
+      {
+        "name": "state",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 141,
+    "kind": "variable",
+    "name": "currentCall",
+    "memberof": "lib/evm/selectors.js",
+    "static": true,
+    "longname": "lib/evm/selectors.js~currentCall",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/evm/selectors.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 142,
+    "kind": "variable",
+    "name": "currentState",
+    "memberof": "lib/evm/selectors.js",
+    "static": true,
+    "longname": "lib/evm/selectors.js~currentState",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/evm/selectors.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 143,
+    "kind": "variable",
+    "name": "programCounter",
+    "memberof": "lib/evm/selectors.js",
+    "static": true,
+    "longname": "lib/evm/selectors.js~programCounter",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/evm/selectors.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 21,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 144,
+    "kind": "variable",
+    "name": "isJump",
+    "memberof": "lib/evm/selectors.js",
+    "static": true,
+    "longname": "lib/evm/selectors.js~isJump",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/evm/selectors.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 27,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 145,
+    "kind": "variable",
+    "name": "isCall",
+    "memberof": "lib/evm/selectors.js",
+    "static": true,
+    "longname": "lib/evm/selectors.js~isCall",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/evm/selectors.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 33,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 146,
+    "kind": "variable",
+    "name": "isCreate",
+    "memberof": "lib/evm/selectors.js",
+    "static": true,
+    "longname": "lib/evm/selectors.js~isCreate",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/evm/selectors.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 39,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 147,
+    "kind": "variable",
+    "name": "isHalting",
+    "memberof": "lib/evm/selectors.js",
+    "static": true,
+    "longname": "lib/evm/selectors.js~isHalting",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/evm/selectors.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 45,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 148,
+    "kind": "variable",
+    "name": "callAddress",
+    "memberof": "lib/evm/selectors.js",
+    "static": true,
+    "longname": "lib/evm/selectors.js~callAddress",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/evm/selectors.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 51,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 149,
+    "kind": "variable",
+    "name": "createBinary",
+    "memberof": "lib/evm/selectors.js",
+    "static": true,
+    "longname": "lib/evm/selectors.js~createBinary",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/evm/selectors.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 63,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 150,
+    "kind": "variable",
+    "name": "nextStep",
+    "memberof": "lib/evm/selectors.js",
+    "static": true,
+    "longname": "lib/evm/selectors.js~nextStep",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/evm/selectors.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 81,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 151,
+    "kind": "variable",
+    "name": "selector",
+    "memberof": "lib/evm/selectors.js",
+    "static": true,
+    "longname": "lib/evm/selectors.js~selector",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/evm/selectors.js",
+    "importStyle": "selector",
+    "description": null,
+    "lineNumber": 100,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 152,
+    "kind": "file",
+    "name": "lib/reducers.js",
+    "content": "import { combineReducers } from \"redux\";\n\nimport evm from \"./evm/reducers\";\nimport solidity from './solidity/reducers';\nimport trace from \"./trace/reducers\";\n\nconst reduceState = combineReducers({\n  trace,\n  evm,\n  solidity\n});\n\nexport default function reduce(session, action) {\n  return {\n    props: session.props,\n    state: reduceState(session.state, action)\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/gnidan/src/work/develop-truffle/dependencies/truffle-debugger/lib/reducers.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 153,
+    "kind": "variable",
+    "name": "reduceState",
+    "memberof": "lib/reducers.js",
+    "static": true,
+    "longname": "lib/reducers.js~reduceState",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/reducers.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 154,
+    "kind": "function",
+    "name": "reduce",
+    "memberof": "lib/reducers.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/reducers.js~reduce",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/reducers.js",
+    "importStyle": "reduce",
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "params": [
+      {
+        "name": "session",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "action",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{\"props\": *, \"state\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 155,
+    "kind": "file",
+    "name": "lib/sagas.js",
+    "content": "import { all, call, fork, race, take } from 'redux-saga/effects';\n\nimport controllerSaga from \"./controller/sagas\";\nimport soliditySaga from \"./solidity/sagas\";\nimport evmSaga from \"./evm/sagas\";\nimport traceSaga from \"./trace/sagas\";\n\n\nimport { END_OF_TRACE } from \"./trace/actions\";\n\nfunction* sessionSaga() {\n  yield fork(controllerSaga);\n  yield fork(traceSaga);\n  yield fork(evmSaga);\n  yield fork(soliditySaga);\n}\n\nexport default function *saga () {\n  yield race({\n    session: call(sessionSaga),\n\n    cancel: take(END_OF_TRACE)\n  });\n}\n",
+    "static": true,
+    "longname": "/Users/gnidan/src/work/develop-truffle/dependencies/truffle-debugger/lib/sagas.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 156,
+    "kind": "function",
+    "name": "sessionSaga",
+    "memberof": "lib/sagas.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "lib/sagas.js~sessionSaga",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/sagas.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "params": [],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 157,
+    "kind": "function",
+    "name": "saga",
+    "memberof": "lib/sagas.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "lib/sagas.js~saga",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/sagas.js",
+    "importStyle": "saga",
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 158,
+    "kind": "file",
+    "name": "lib/session.js",
+    "content": "import debugModule from \"debug\";\nconst debug = debugModule(\"debugger:session\");\nconst reduxDebug = debugModule(\"debugger:redux\");\n\nimport { createStore, applyMiddleware } from \"redux\";\n\nimport createSagaMiddleware from \"redux-saga\";\nimport createLogger from \"redux-cli-logger\";\n\nimport rootSaga from \"./sagas\";\nimport reducer from \"./reducers\";\nimport * as actions from \"./controller/actions\";\n\nimport trace from \"./trace/selectors\";\nimport evm from \"./evm/selectors\";\n\n/**\n * Debugger Session\n */\nexport default class Session {\n  /**\n   * @param {function(state: State): StateView} viewer - function to view state\n   * @param {State} initialState - initial state\n   * @private\n   */\n  constructor(contexts, trace, initialState) {\n    const sagaMiddleware = createSagaMiddleware();\n\n    const loggerMiddleware = createLogger({\n      log: reduxDebug,\n      stateTransformer: (session) => session.state\n    });\n\n    this._store = createStore(\n      reducer,\n\n      {\n        props: { contexts, trace },\n        state: initialState\n      },\n\n      applyMiddleware(\n        sagaMiddleware,\n        loggerMiddleware\n      )\n    );\n\n    sagaMiddleware.run(rootSaga);\n  }\n\n  get state() {\n    return this._store.getState();\n  }\n\n  view(selector) {\n    let { state, props } = this.state;\n\n    return selector(state, props);\n  }\n\n  get finished() {\n    return this.view(trace.step) === undefined;\n  }\n\n  get failed() {\n    return this.finished && this.view(evm.current.callstack).length\n  }\n\n  dispatch(action) {\n    if (this.finished) {\n      debug(\"finished: intercepting action %o\", action);\n\n      return false;\n    }\n\n    this._store.dispatch(action);\n\n    return true;\n  }\n\n  interrupt() {\n    return this.dispatch(actions.interrupt());\n  }\n\n  advance() {\n    return this.dispatch(actions.advance());\n  }\n\n  stepNext() {\n    return this.dispatch(actions.stepNext());\n  }\n\n  stepOver() {\n    return this.dispatch(actions.stepOver());\n  }\n\n  stepInto() {\n    return this.dispatch(actions.stepInto());\n  }\n\n  stepOut() {\n    return this.dispatch(actions.stepOut());\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/gnidan/src/work/develop-truffle/dependencies/truffle-debugger/lib/session.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 159,
+    "kind": "variable",
+    "name": "debug",
+    "memberof": "lib/session.js",
+    "static": true,
+    "longname": "lib/session.js~debug",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/session.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 160,
+    "kind": "variable",
+    "name": "reduxDebug",
+    "memberof": "lib/session.js",
+    "static": true,
+    "longname": "lib/session.js~reduxDebug",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/session.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 161,
+    "kind": "class",
+    "name": "Session",
+    "memberof": "lib/session.js",
+    "static": true,
+    "longname": "lib/session.js~Session",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/session.js",
+    "importStyle": "Session",
+    "description": "Debugger Session",
+    "lineNumber": 20,
+    "interface": false
+  },
+  {
+    "__docId__": 162,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "lib/session.js~Session",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/session.js~Session#constructor",
+    "access": "private",
+    "description": "",
+    "lineNumber": 26,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "function(state: State): StateView"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "viewer",
+        "description": "function to view state"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "State"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "initialState",
+        "description": "initial state"
+      }
+    ]
+  },
+  {
+    "__docId__": 163,
+    "kind": "member",
+    "name": "_store",
+    "memberof": "lib/session.js~Session",
+    "static": false,
+    "longname": "lib/session.js~Session#_store",
+    "access": "private",
+    "description": null,
+    "lineNumber": 34,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 164,
+    "kind": "get",
+    "name": "state",
+    "memberof": "lib/session.js~Session",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/session.js~Session#state",
+    "access": "public",
+    "description": null,
+    "lineNumber": 51,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 165,
+    "kind": "method",
+    "name": "view",
+    "memberof": "lib/session.js~Session",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/session.js~Session#view",
+    "access": "public",
+    "description": null,
+    "lineNumber": 55,
+    "undocument": true,
+    "params": [
+      {
+        "name": "selector",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 166,
+    "kind": "get",
+    "name": "finished",
+    "memberof": "lib/session.js~Session",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/session.js~Session#finished",
+    "access": "public",
+    "description": null,
+    "lineNumber": 61,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 167,
+    "kind": "get",
+    "name": "failed",
+    "memberof": "lib/session.js~Session",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/session.js~Session#failed",
+    "access": "public",
+    "description": null,
+    "lineNumber": 65,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 168,
+    "kind": "method",
+    "name": "dispatch",
+    "memberof": "lib/session.js~Session",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/session.js~Session#dispatch",
+    "access": "public",
+    "description": null,
+    "lineNumber": 69,
+    "undocument": true,
+    "params": [
+      {
+        "name": "action",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "boolean"
+      ]
+    }
+  },
+  {
+    "__docId__": 169,
+    "kind": "method",
+    "name": "interrupt",
+    "memberof": "lib/session.js~Session",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/session.js~Session#interrupt",
+    "access": "public",
+    "description": null,
+    "lineNumber": 81,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 170,
+    "kind": "method",
+    "name": "advance",
+    "memberof": "lib/session.js~Session",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/session.js~Session#advance",
+    "access": "public",
+    "description": null,
+    "lineNumber": 85,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 171,
+    "kind": "method",
+    "name": "stepNext",
+    "memberof": "lib/session.js~Session",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/session.js~Session#stepNext",
+    "access": "public",
+    "description": null,
+    "lineNumber": 89,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 172,
+    "kind": "method",
+    "name": "stepOver",
+    "memberof": "lib/session.js~Session",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/session.js~Session#stepOver",
+    "access": "public",
+    "description": null,
+    "lineNumber": 93,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 173,
+    "kind": "method",
+    "name": "stepInto",
+    "memberof": "lib/session.js~Session",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/session.js~Session#stepInto",
+    "access": "public",
+    "description": null,
+    "lineNumber": 97,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 174,
+    "kind": "method",
+    "name": "stepOut",
+    "memberof": "lib/session.js~Session",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/session.js~Session#stepOut",
+    "access": "public",
+    "description": null,
+    "lineNumber": 101,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 175,
+    "kind": "file",
+    "name": "lib/solidity/actions/index.js",
+    "content": "export const JUMP = \"JUMP\";\nexport function jump(jumpDirection) {\n  return {\n    type: JUMP,\n    jumpDirection\n  };\n}\n",
+    "static": true,
+    "longname": "/Users/gnidan/src/work/develop-truffle/dependencies/truffle-debugger/lib/solidity/actions/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 176,
+    "kind": "variable",
+    "name": "JUMP",
+    "memberof": "lib/solidity/actions/index.js",
+    "static": true,
+    "longname": "lib/solidity/actions/index.js~JUMP",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/solidity/actions/index.js",
+    "importStyle": "{JUMP}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 177,
+    "kind": "function",
+    "name": "jump",
+    "memberof": "lib/solidity/actions/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/solidity/actions/index.js~jump",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/solidity/actions/index.js",
+    "importStyle": "{jump}",
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "params": [
+      {
+        "name": "jumpDirection",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{\"type\": *, \"jumpDirection\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 178,
+    "kind": "file",
+    "name": "lib/solidity/reducers.js",
+    "content": "import { combineReducers } from \"redux\";\n\nimport * as actions from \"./actions\";\n\nexport function functionDepth(state = 1, action) {\n  if (action.type === actions.JUMP) {\n    const delta = spelunk(action.jumpDirection)\n    return state + delta;\n  } else {\n    return state;\n  }\n}\n\nfunction spelunk(jump) {\n  if (jump == \"i\") {\n    return 1;\n  } else if (jump == \"o\") {\n    return -1;\n  } else {\n    return 0;\n  }\n}\n\nconst reducer = combineReducers({\n  functionDepth\n});\n\nexport default reducer;\n",
+    "static": true,
+    "longname": "/Users/gnidan/src/work/develop-truffle/dependencies/truffle-debugger/lib/solidity/reducers.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 179,
+    "kind": "function",
+    "name": "functionDepth",
+    "memberof": "lib/solidity/reducers.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/solidity/reducers.js~functionDepth",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/solidity/reducers.js",
+    "importStyle": "{functionDepth}",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "params": [
+      {
+        "name": "state",
+        "optional": true,
+        "types": [
+          "number"
+        ],
+        "defaultRaw": 1,
+        "defaultValue": "1"
+      },
+      {
+        "name": "action",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 180,
+    "kind": "function",
+    "name": "spelunk",
+    "memberof": "lib/solidity/reducers.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/solidity/reducers.js~spelunk",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/solidity/reducers.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 14,
+    "undocument": true,
+    "params": [
+      {
+        "name": "jump",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "number"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 181,
+    "kind": "variable",
+    "name": "reducer",
+    "memberof": "lib/solidity/reducers.js",
+    "static": true,
+    "longname": "lib/solidity/reducers.js~reducer",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/solidity/reducers.js",
+    "importStyle": "reducer",
+    "description": null,
+    "lineNumber": 24,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 182,
+    "kind": "file",
+    "name": "lib/solidity/sagas.js",
+    "content": "import debugModule from \"debug\";\nconst debug = debugModule(\"debugger:solidity:sagas\");\n\nimport { call, put, take } from \"redux-saga/effects\";\nimport { view } from \"../effects\";\n\nimport { TICK } from \"../trace/actions\";\nimport evm from \"../evm/selectors\";\n\nimport * as actions from \"./actions\";\nimport solidity from \"./selectors\";\n\nfunction* functionDepthSaga () {\n  while (true) {\n    yield take(TICK);\n    debug(\"got TICK\");\n    let instruction = yield view(solidity.nextStep.nextInstruction);\n    debug(\"instruction: %o\", instruction);\n\n    if (yield view(evm.nextStep.isJump)) {\n      let jumpDirection = yield view(solidity.nextStep.jumpDirection);\n\n\n      yield put(actions.jump(jumpDirection));\n    }\n  }\n}\n\n\nexport default function* saga () {\n  yield call(functionDepthSaga);\n}\n",
+    "static": true,
+    "longname": "/Users/gnidan/src/work/develop-truffle/dependencies/truffle-debugger/lib/solidity/sagas.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 183,
+    "kind": "variable",
+    "name": "debug",
+    "memberof": "lib/solidity/sagas.js",
+    "static": true,
+    "longname": "lib/solidity/sagas.js~debug",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/solidity/sagas.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 184,
+    "kind": "function",
+    "name": "functionDepthSaga",
+    "memberof": "lib/solidity/sagas.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "lib/solidity/sagas.js~functionDepthSaga",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/solidity/sagas.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "params": [],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 185,
+    "kind": "function",
+    "name": "saga",
+    "memberof": "lib/solidity/sagas.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "lib/solidity/sagas.js~saga",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/solidity/sagas.js",
+    "importStyle": "saga",
+    "description": null,
+    "lineNumber": 30,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 186,
+    "kind": "file",
+    "name": "lib/solidity/selectors.js",
+    "content": "import { createSelector, createStructuredSelector } from \"reselect\";\n\nimport context from \"../context/selectors\";\nimport evm from \"../evm/selectors\";\n\nconst functionDepth = (state, props) => state.solidity.functionDepth;\n\nlet currentState = createStructuredSelector({\n  functionDepth\n});\ncurrentState.functionDepth = functionDepth;\n\nconst nextInstruction = createSelector(\n  [context.current, evm.nextStep.programCounter],\n\n  (context, pc) => context.instructionAtProgramCounter(pc)\n);\n\nconst sourceRange = createSelector(\n  [nextInstruction],\n\n  (instruction) => {\n    return {\n      start: instruction.start,\n      length: instruction.length,\n      lines: instruction.range\n    };\n  }\n);\n\nconst isMultiline = createSelector(\n  [sourceRange],\n\n  ( {lines} ) => lines.start.line != lines.end.line\n);\n\n\nconst jumpDirection = createSelector(\n  [nextInstruction],\n\n  (instruction) => instruction.jump\n);\n\nlet nextStep = createStructuredSelector({\n  nextInstruction: nextInstruction,\n  sourceRange: sourceRange,\n  isMultiline: isMultiline,\n  jumpDirection: jumpDirection,\n});\n\nnextStep.nextInstruction = nextInstruction;\nnextStep.sourceRange = sourceRange;\nnextStep.isMultiline = isMultiline;\nnextStep.jumpDirection = jumpDirection;\n\nlet selector = createStructuredSelector({\n  currentState,\n  nextStep\n});\nselector.currentState = currentState;\nselector.nextStep = nextStep;\n\nexport default selector;\n",
+    "static": true,
+    "longname": "/Users/gnidan/src/work/develop-truffle/dependencies/truffle-debugger/lib/solidity/selectors.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 187,
+    "kind": "function",
+    "name": "functionDepth",
+    "memberof": "lib/solidity/selectors.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/solidity/selectors.js~functionDepth",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/solidity/selectors.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "params": [
+      {
+        "name": "state",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 188,
+    "kind": "variable",
+    "name": "currentState",
+    "memberof": "lib/solidity/selectors.js",
+    "static": true,
+    "longname": "lib/solidity/selectors.js~currentState",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/solidity/selectors.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 189,
+    "kind": "variable",
+    "name": "nextInstruction",
+    "memberof": "lib/solidity/selectors.js",
+    "static": true,
+    "longname": "lib/solidity/selectors.js~nextInstruction",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/solidity/selectors.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 190,
+    "kind": "variable",
+    "name": "sourceRange",
+    "memberof": "lib/solidity/selectors.js",
+    "static": true,
+    "longname": "lib/solidity/selectors.js~sourceRange",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/solidity/selectors.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 191,
+    "kind": "variable",
+    "name": "isMultiline",
+    "memberof": "lib/solidity/selectors.js",
+    "static": true,
+    "longname": "lib/solidity/selectors.js~isMultiline",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/solidity/selectors.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 31,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 192,
+    "kind": "variable",
+    "name": "jumpDirection",
+    "memberof": "lib/solidity/selectors.js",
+    "static": true,
+    "longname": "lib/solidity/selectors.js~jumpDirection",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/solidity/selectors.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 38,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 193,
+    "kind": "variable",
+    "name": "nextStep",
+    "memberof": "lib/solidity/selectors.js",
+    "static": true,
+    "longname": "lib/solidity/selectors.js~nextStep",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/solidity/selectors.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 44,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 194,
+    "kind": "variable",
+    "name": "selector",
+    "memberof": "lib/solidity/selectors.js",
+    "static": true,
+    "longname": "lib/solidity/selectors.js~selector",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/solidity/selectors.js",
+    "importStyle": "selector",
+    "description": null,
+    "lineNumber": 56,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 195,
+    "kind": "file",
+    "name": "lib/trace/actions/index.js",
+    "content": "export const NEXT = \"NEXT\";\nexport function next() {\n  return {type: NEXT};\n}\n\nexport const TICK = \"TICK\";\nexport function tick() {\n  return {type: TICK};\n}\n\nexport const TOCK = \"TOCK\";\nexport function tock() {\n  return {type: TOCK};\n}\n\nexport const END_OF_TRACE = \"EOT\";\nexport function endTrace() {\n  return {type: END_OF_TRACE};\n}\n",
+    "static": true,
+    "longname": "/Users/gnidan/src/work/develop-truffle/dependencies/truffle-debugger/lib/trace/actions/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 196,
+    "kind": "variable",
+    "name": "NEXT",
+    "memberof": "lib/trace/actions/index.js",
+    "static": true,
+    "longname": "lib/trace/actions/index.js~NEXT",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/trace/actions/index.js",
+    "importStyle": "{NEXT}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 197,
+    "kind": "function",
+    "name": "next",
+    "memberof": "lib/trace/actions/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/trace/actions/index.js~next",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/trace/actions/index.js",
+    "importStyle": "{next}",
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "{\"type\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 198,
+    "kind": "variable",
+    "name": "TICK",
+    "memberof": "lib/trace/actions/index.js",
+    "static": true,
+    "longname": "lib/trace/actions/index.js~TICK",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/trace/actions/index.js",
+    "importStyle": "{TICK}",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 199,
+    "kind": "function",
+    "name": "tick",
+    "memberof": "lib/trace/actions/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/trace/actions/index.js~tick",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/trace/actions/index.js",
+    "importStyle": "{tick}",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "{\"type\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 200,
+    "kind": "variable",
+    "name": "TOCK",
+    "memberof": "lib/trace/actions/index.js",
+    "static": true,
+    "longname": "lib/trace/actions/index.js~TOCK",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/trace/actions/index.js",
+    "importStyle": "{TOCK}",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 201,
+    "kind": "function",
+    "name": "tock",
+    "memberof": "lib/trace/actions/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/trace/actions/index.js~tock",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/trace/actions/index.js",
+    "importStyle": "{tock}",
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "{\"type\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 202,
+    "kind": "variable",
+    "name": "END_OF_TRACE",
+    "memberof": "lib/trace/actions/index.js",
+    "static": true,
+    "longname": "lib/trace/actions/index.js~END_OF_TRACE",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/trace/actions/index.js",
+    "importStyle": "{END_OF_TRACE}",
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 203,
+    "kind": "function",
+    "name": "endTrace",
+    "memberof": "lib/trace/actions/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/trace/actions/index.js~endTrace",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/trace/actions/index.js",
+    "importStyle": "{endTrace}",
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "{\"type\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 204,
+    "kind": "file",
+    "name": "lib/trace/reducers.js",
+    "content": "import { combineReducers } from \"redux\";\n\nimport { TOCK, END_OF_TRACE } from \"./actions\";\n\nexport function index(state = 0, action) {\n  if (action.type == TOCK || action.type == END_OF_TRACE) {\n    return state + 1;\n  } else {\n    return state;\n  }\n}\n\nconst reducer = combineReducers({\n  index\n});\n\nexport default reducer;\n",
+    "static": true,
+    "longname": "/Users/gnidan/src/work/develop-truffle/dependencies/truffle-debugger/lib/trace/reducers.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 205,
+    "kind": "function",
+    "name": "index",
+    "memberof": "lib/trace/reducers.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/trace/reducers.js~index",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/trace/reducers.js",
+    "importStyle": "{index}",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "params": [
+      {
+        "name": "state",
+        "optional": true,
+        "types": [
+          "number"
+        ],
+        "defaultRaw": 0,
+        "defaultValue": "0"
+      },
+      {
+        "name": "action",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 206,
+    "kind": "variable",
+    "name": "reducer",
+    "memberof": "lib/trace/reducers.js",
+    "static": true,
+    "longname": "lib/trace/reducers.js~reducer",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/trace/reducers.js",
+    "importStyle": "reducer",
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 207,
+    "kind": "file",
+    "name": "lib/trace/sagas.js",
+    "content": "import debugModule from \"debug\";\nconst debug = debugModule(\"debugger:trace:sagas\");\n\nimport { call, fork, take, takeLatest, put } from \"redux-saga/effects\";\nimport { view } from \"../effects\";\n\nimport * as actions from \"./actions\";\nimport trace from \"./selectors\";\n\nexport function* next() {\n  let remaining = yield view(trace.stepsRemaining);\n  debug(\"remaining: %o\", remaining);\n  let steps = yield view(trace.steps);\n  debug(\"total steps: %o\", steps.length);\n\n  if (remaining > 0) {\n    debug(\"putting TICK\");\n    // updates state for current step\n    yield put(actions.tick());\n    debug(\"put TICK\");\n\n    remaining--; // local update, just for convenience\n  }\n\n  if (remaining) {\n    debug(\"putting TOCK\");\n    // updates step to next step in trace\n    yield put(actions.tock());\n    debug(\"put TOCK\");\n\n  } else {\n\n    yield put(actions.endTrace());\n  }\n}\n\nexport default function* saga() {\n  yield takeLatest(actions.NEXT, next);\n}\n",
+    "static": true,
+    "longname": "/Users/gnidan/src/work/develop-truffle/dependencies/truffle-debugger/lib/trace/sagas.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 208,
+    "kind": "variable",
+    "name": "debug",
+    "memberof": "lib/trace/sagas.js",
+    "static": true,
+    "longname": "lib/trace/sagas.js~debug",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/trace/sagas.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 209,
+    "kind": "function",
+    "name": "next",
+    "memberof": "lib/trace/sagas.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "lib/trace/sagas.js~next",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/trace/sagas.js",
+    "importStyle": "{next}",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 210,
+    "kind": "function",
+    "name": "saga",
+    "memberof": "lib/trace/sagas.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "lib/trace/sagas.js~saga",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/trace/sagas.js",
+    "importStyle": "saga",
+    "description": null,
+    "lineNumber": 37,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 211,
+    "kind": "file",
+    "name": "lib/trace/selectors.js",
+    "content": "import { createSelector, createStructuredSelector } from \"reselect\";\n\nconst traceStep = (state, props) => props.trace[state.trace.index];\n\nconst stepsRemaining = (state, props) =>\n  props.trace.length - state.trace.index;\n\nconst steps = (state, props) => [...props.trace];\n\nconst index = (state, props) => state.trace.index;\n\nlet selector = createStructuredSelector({\n  index,\n  steps,\n  stepsRemaining,\n  step: traceStep,\n});\nselector.index = index;\nselector.steps = steps;\nselector.step = traceStep;\nselector.stepsRemaining = stepsRemaining;\n\nexport default selector;\n",
+    "static": true,
+    "longname": "/Users/gnidan/src/work/develop-truffle/dependencies/truffle-debugger/lib/trace/selectors.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 212,
+    "kind": "function",
+    "name": "traceStep",
+    "memberof": "lib/trace/selectors.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/trace/selectors.js~traceStep",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/trace/selectors.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "state",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 213,
+    "kind": "function",
+    "name": "stepsRemaining",
+    "memberof": "lib/trace/selectors.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/trace/selectors.js~stepsRemaining",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/trace/selectors.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "params": [
+      {
+        "name": "state",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 214,
+    "kind": "function",
+    "name": "steps",
+    "memberof": "lib/trace/selectors.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/trace/selectors.js~steps",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/trace/selectors.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "params": [
+      {
+        "name": "state",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 215,
+    "kind": "function",
+    "name": "index",
+    "memberof": "lib/trace/selectors.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "lib/trace/selectors.js~index",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/trace/selectors.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "params": [
+      {
+        "name": "state",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 216,
+    "kind": "variable",
+    "name": "selector",
+    "memberof": "lib/trace/selectors.js",
+    "static": true,
+    "longname": "lib/trace/selectors.js~selector",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/trace/selectors.js",
+    "importStyle": "selector",
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 217,
+    "kind": "file",
+    "name": "lib/types/contract.js",
+    "content": "export default class Contract {\n  constructor({\n    contractName,\n    source,\n    sourcePath,\n    binary,\n    deployedBinary,\n    sourceMap,\n    deployedSourceMap\n  }) {\n    this.contractName = contractName;\n    this.source = source;\n    this.sourcePath = sourcePath;\n    this.binary = binary;\n    this.deployedBinary = deployedBinary;\n    this.sourceMap = sourceMap;\n    this.deployedSourceMap = deployedSourceMap;\n  }\n}\n\n",
+    "static": true,
+    "longname": "/Users/gnidan/src/work/develop-truffle/dependencies/truffle-debugger/lib/types/contract.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 218,
+    "kind": "class",
+    "name": "Contract",
+    "memberof": "lib/types/contract.js",
+    "static": true,
+    "longname": "lib/types/contract.js~Contract",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/types/contract.js",
+    "importStyle": "Contract",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "interface": false
+  },
+  {
+    "__docId__": 219,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "lib/types/contract.js~Contract",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/types/contract.js~Contract#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true
+  },
+  {
+    "__docId__": 220,
+    "kind": "member",
+    "name": "contractName",
+    "memberof": "lib/types/contract.js~Contract",
+    "static": false,
+    "longname": "lib/types/contract.js~Contract#contractName",
+    "access": "public",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 221,
+    "kind": "member",
+    "name": "source",
+    "memberof": "lib/types/contract.js~Contract",
+    "static": false,
+    "longname": "lib/types/contract.js~Contract#source",
+    "access": "public",
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 222,
+    "kind": "member",
+    "name": "sourcePath",
+    "memberof": "lib/types/contract.js~Contract",
+    "static": false,
+    "longname": "lib/types/contract.js~Contract#sourcePath",
+    "access": "public",
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 223,
+    "kind": "member",
+    "name": "binary",
+    "memberof": "lib/types/contract.js~Contract",
+    "static": false,
+    "longname": "lib/types/contract.js~Contract#binary",
+    "access": "public",
+    "description": null,
+    "lineNumber": 14,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 224,
+    "kind": "member",
+    "name": "deployedBinary",
+    "memberof": "lib/types/contract.js~Contract",
+    "static": false,
+    "longname": "lib/types/contract.js~Contract#deployedBinary",
+    "access": "public",
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 225,
+    "kind": "member",
+    "name": "sourceMap",
+    "memberof": "lib/types/contract.js~Contract",
+    "static": false,
+    "longname": "lib/types/contract.js~Contract#sourceMap",
+    "access": "public",
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 226,
+    "kind": "member",
+    "name": "deployedSourceMap",
+    "memberof": "lib/types/contract.js~Contract",
+    "static": false,
+    "longname": "lib/types/contract.js~Contract#deployedSourceMap",
+    "access": "public",
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 227,
+    "kind": "file",
+    "name": "lib/types/index.js",
+    "content": "export { default as Contract } from \"./contract\";\n",
+    "static": true,
+    "longname": "/Users/gnidan/src/work/develop-truffle/dependencies/truffle-debugger/lib/types/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 228,
+    "kind": "file",
+    "name": "lib/web3/index.js",
+    "content": "import debugModule from \"debug\";\n\nimport Web3 from \"web3\";\n\nimport { Context } from \"../context\";\n\nconst debug = debugModule(\"debugger:web3\");\n\nexport default class Web3Adapter {\n  constructor(provider) {\n    this.web3 = new Web3(provider);\n  }\n\n  /**\n   * getTransactionInfo - get the primary address, the trace, and whether the transaction\n   * is a contract creation\n   *\n   * This will return the to address, if the transaction is made to an existing contract;\n   * or else it will return the address of the contract created as a result of the transaction.\n   *\n   * @param  {String}   txHash   Hash of the transaction\n   * @return {Object}            Primary address of the transaction\n   */\n  async getTransactionInfo(txHash) {\n    var self = this;\n\n    let trace = await this.getTrace(txHash);\n\n    return new Promise(function(accept, reject) {\n      self.web3.eth.getTransaction(txHash, function(err, tx) {\n        if (err) return reject(err);\n\n        // Maybe there's a better way to check for this.\n        // Some clients return 0x0 when transaction is a contract creation.\n        if (tx.to && tx.to != \"0x0\") {\n          return accept({\n            trace: trace,\n            address: tx.to\n          });\n        }\n\n        self.web3.eth.getTransactionReceipt(txHash, function(err, receipt) {\n          if (err) return reject(err);\n\n          if (receipt.contractAddress) {\n            return accept({\n              trace: trace,\n              binary: receipt.input\n            });\n          }\n\n          return reject(new Error(\"Could not find contract associated with transaction. Please make sure you're debugging a transaction that executes a contract function or creates a new contract.\"));\n        });\n      });\n    });\n  };\n\n  async getTrace(txHash) {\n    var self = this;\n    return new Promise(function(accept, reject) {\n      self.web3.currentProvider.sendAsync({\n        jsonrpc: \"2.0\",\n        method: \"debug_traceTransaction\",\n        params: [txHash],\n        id: new Date().getTime()\n      }, function(err, result) {\n        if (err) return reject(err);\n        accept(result.result.structLogs);\n      });\n    });\n  };\n\n  async gatherContexts(trace, primaryAddress) {\n    var self = this;\n    // Analyze the trace and create contexts for each address.\n    var addresses = {};\n\n    trace.forEach(function(step, index) {\n      if (step.op == \"CALL\" || step.op == \"DELEGATECALL\") {\n        let address = step.stack[step.stack.length - 2]\n        address = \"0x\" + address.substring(24);\n\n        addresses[address] = true;\n      }\n    });\n\n    if (primaryAddress) {\n      addresses[primaryAddress] = true;\n    }\n\n    debug(\"addresses: %O\", addresses);\n\n    var promises = Object.keys(addresses).map(async function(address) {\n      let deployedBinary = await self.getDeployedCode(address);\n      return new Context(deployedBinary, {address})\n    });\n\n    return await Promise.all(promises);\n  };\n\n  /**\n   * getDeployedCode - get the deployed code for an address from the client\n   * @param  {String} address\n   * @return {String}         deployedBinary\n   */\n  async getDeployedCode(address) {\n    var self = this;\n\n    return new Promise(function(accept, reject) {\n      self.web3.eth.getCode(address, function(err, deployedBinary) {\n        if (err) return reject(err);\n        accept(deployedBinary);\n      });\n    });\n  };\n}\n",
+    "static": true,
+    "longname": "/Users/gnidan/src/work/develop-truffle/dependencies/truffle-debugger/lib/web3/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 229,
+    "kind": "variable",
+    "name": "debug",
+    "memberof": "lib/web3/index.js",
+    "static": true,
+    "longname": "lib/web3/index.js~debug",
+    "access": "public",
+    "export": false,
+    "importPath": "truffle-debugger/lib/web3/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 230,
+    "kind": "class",
+    "name": "Web3Adapter",
+    "memberof": "lib/web3/index.js",
+    "static": true,
+    "longname": "lib/web3/index.js~Web3Adapter",
+    "access": "public",
+    "export": true,
+    "importPath": "truffle-debugger/lib/web3/index.js",
+    "importStyle": "Web3Adapter",
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "interface": false
+  },
+  {
+    "__docId__": 231,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "lib/web3/index.js~Web3Adapter",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "lib/web3/index.js~Web3Adapter#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true
+  },
+  {
+    "__docId__": 232,
+    "kind": "member",
+    "name": "web3",
+    "memberof": "lib/web3/index.js~Web3Adapter",
+    "static": false,
+    "longname": "lib/web3/index.js~Web3Adapter#web3",
+    "access": "public",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 233,
+    "kind": "method",
+    "name": "getTransactionInfo",
+    "memberof": "lib/web3/index.js~Web3Adapter",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "lib/web3/index.js~Web3Adapter#getTransactionInfo",
+    "access": "public",
+    "description": "getTransactionInfo - get the primary address, the trace, and whether the transaction\nis a contract creation\n\nThis will return the to address, if the transaction is made to an existing contract;\nor else it will return the address of the contract created as a result of the transaction.",
+    "lineNumber": 24,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "txHash",
+        "description": "Hash of the transaction"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": "Primary address of the transaction"
+    }
+  },
+  {
+    "__docId__": 234,
+    "kind": "method",
+    "name": "getTrace",
+    "memberof": "lib/web3/index.js~Web3Adapter",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "lib/web3/index.js~Web3Adapter#getTrace",
+    "access": "public",
+    "description": null,
+    "lineNumber": 58,
+    "undocument": true,
+    "params": [
+      {
+        "name": "txHash",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 235,
+    "kind": "method",
+    "name": "gatherContexts",
+    "memberof": "lib/web3/index.js~Web3Adapter",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "lib/web3/index.js~Web3Adapter#gatherContexts",
+    "access": "public",
+    "description": null,
+    "lineNumber": 73,
+    "undocument": true,
+    "params": [
+      {
+        "name": "trace",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "primaryAddress",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 236,
+    "kind": "method",
+    "name": "getDeployedCode",
+    "memberof": "lib/web3/index.js~Web3Adapter",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "lib/web3/index.js~Web3Adapter#getDeployedCode",
+    "access": "public",
+    "description": "getDeployedCode - get the deployed code for an address from the client",
+    "lineNumber": 106,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "address",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "String"
+      ],
+      "spread": false,
+      "description": "deployedBinary"
+    }
+  },
+  {
+    "kind": "index",
+    "content": "# truffle-debugger\nCore functionality for debugging Solidity files built with Truffle\n",
+    "longname": "/Users/gnidan/src/work/develop-truffle/dependencies/truffle-debugger/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"truffle-debugger\",\n  \"version\": \"1.1.0\",\n  \"description\": \"Core functionality for debugging Solidity files built with Truffle\",\n  \"main\": \"dist/debugger.js\",\n  \"scripts\": {\n    \"docs\": \"esdoc\",\n    \"build\": \"webpack\",\n    \"test\": \"mocha-webpack --webpack-config webpack.config-test.js\"\n  },\n  \"keywords\": [\n    \"ethereum\",\n    \"truffle\",\n    \"debugger\",\n    \"solidity\"\n  ],\n  \"author\": \"Tim Coulter <tim.coulter@consenseys.net>\",\n  \"license\": \"MIT\",\n  \"dependencies\": {\n    \"async\": \"^1.5.2\",\n    \"debug\": \"^3.1.0\",\n    \"node-dir\": \"^0.1.17\",\n    \"redux\": \"^3.7.2\",\n    \"redux-cli-logger\": \"^2.0.1\",\n    \"redux-saga\": \"^0.16.0\",\n    \"reselect\": \"^3.0.1\",\n    \"truffle-code-utils\": \"^1.1.0\",\n    \"truffle-contract\": \"^3.0.0\",\n    \"truffle-expect\": \"0.0.3\",\n    \"truffle-solidity-utils\": \"^1.1.0\"\n  },\n  \"devDependencies\": {\n    \"babel-core\": \"^6.26.0\",\n    \"babel-loader\": \"^7.1.2\",\n    \"babel-plugin-transform-object-rest-spread\": \"^6.26.0\",\n    \"babel-plugin-transform-runtime\": \"^6.23.0\",\n    \"babel-preset-env\": \"^1.6.1\",\n    \"babel-runtime\": \"^6.26.0\",\n    \"esdoc\": \"^1.0.4\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"fs-extra\": \"^4.0.2\",\n    \"ganache-cli\": \"^6.0.3\",\n    \"mocha\": \"^4.0.1\",\n    \"mocha-webpack\": \"^1.0.1\",\n    \"node-nightly\": \"^1.7.2\",\n    \"truffle-artifactor\": \"^3.0.0\",\n    \"truffle-box\": \"^1.0.3\",\n    \"truffle-core\": \"^4.0.1\",\n    \"truffle-migrate\": \"^2.0.0\",\n    \"truffle-resolver\": \"^4.0.1\",\n    \"web3\": \"^0.20.2\",\n    \"webpack\": \"^3.8.1\",\n    \"webpack-dev-server\": \"^2.10.1\",\n    \"webpack-node-externals\": \"^1.6.0\"\n  }\n}\n",
+    "longname": "/Users/gnidan/src/work/develop-truffle/dependencies/truffle-debugger/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">lib/views/step.js | truffle-debugger</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Core functionality for debugging Solidity files built with Truffle"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="truffle-debugger"><meta property="twitter:description" content="Core functionality for debugging Solidity files built with Truffle"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/debugger.js~Debugger.html">Debugger</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/session.js~Session.html">Session</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#context">context</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/context/context.js~Context.html">Context</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/context/set.js~ContextSet.html">ContextSet</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#reducers">reducers</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/reducers/callstack.js~CallstackReducer.html">CallstackReducer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/reducers/functionDepth.js~FunctionDepthReducer.html">FunctionDepthReducer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/reducers/index.js~StateReducer.html">StateReducer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/reducers/reducer.js~Reducer.html">Reducer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/reducers/traceIndex.js~TraceIndexReducer.html">TraceIndexReducer</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#types">types</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/types/contract.js~Contract.html">Contract</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#views">views</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/views/instruction.js~InstructionView.html">InstructionView</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/views/session.js~SessionView.html">SessionView</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/views/state.js~StateView.html">StateView</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/views/step.js~StepView.html">StepView</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#web3">web3</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/web3/index.js~Web3Adapter.html">Web3Adapter</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">lib/views/step.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">export default class StepView {
+  /**
+   * callAddress - get the address off the stack for a given trace step
+   * @return {String}      Address of contract pointed to by this call
+   */
+  callAddress(step) {
+    let address = step.stack[step.stack.length - 2];
+
+    // Remove leading zeroes from address and add &quot;0x&quot; prefix.
+    address = &quot;0x&quot; + address.substring(24);
+
+    return address;
+  }
+
+  createBinary(step) {
+    const memory = step.memory.join(&quot;&quot;);
+
+    // Get the code that&apos;s going to be created from memory.
+    // Note we multiply by 2 because these offsets are in bytes.
+    const inputOffset = parseInt(step.stack[step.stack.length - 2], 16) * 2;
+    const inputSize = parseInt(step.stack[step.stack.length - 3], 16) * 2;
+
+    return &quot;0x&quot; + memory.substring(inputOffset, inputOffset + inputSize);
+  }
+}
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.0.4)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

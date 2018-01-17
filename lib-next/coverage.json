@@ -1,0 +1,290 @@
+{
+  "coverage": "13.66%",
+  "expectCount": 161,
+  "actualCount": 22,
+  "files": {
+    "lib/context/context.js": {
+      "expectCount": 15,
+      "actualCount": 2,
+      "undocumentLines": [
+        6,
+        13,
+        18,
+        21,
+        29,
+        30,
+        31,
+        32,
+        34,
+        36,
+        40,
+        58,
+        114
+      ]
+    },
+    "lib/context/selectors.js": {
+      "expectCount": 6,
+      "actualCount": 0,
+      "undocumentLines": [
+        2,
+        9,
+        11,
+        23,
+        29,
+        37
+      ]
+    },
+    "lib/context/set.js": {
+      "expectCount": 12,
+      "actualCount": 7,
+      "undocumentLines": [
+        8,
+        10,
+        11,
+        12,
+        18
+      ]
+    },
+    "lib/controller/actions/index.js": {
+      "expectCount": 14,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        2,
+        9,
+        10,
+        14,
+        15,
+        19,
+        20,
+        24,
+        25,
+        29,
+        30,
+        34,
+        35
+      ]
+    },
+    "lib/controller/sagas.js": {
+      "expectCount": 8,
+      "actualCount": 5,
+      "undocumentLines": [
+        2,
+        14,
+        22
+      ]
+    },
+    "lib/debugger.js": {
+      "expectCount": 10,
+      "actualCount": 4,
+      "undocumentLines": [
+        13,
+        15,
+        23,
+        24,
+        25,
+        80
+      ]
+    },
+    "lib/effects.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        2,
+        8
+      ]
+    },
+    "lib/evm/actions/index.js": {
+      "expectCount": 6,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        2,
+        9,
+        10,
+        17,
+        18
+      ]
+    },
+    "lib/evm/reducers.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        5,
+        23
+      ]
+    },
+    "lib/evm/sagas.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        2,
+        12,
+        36
+      ]
+    },
+    "lib/evm/selectors.js": {
+      "expectCount": 12,
+      "actualCount": 0,
+      "undocumentLines": [
+        5,
+        7,
+        13,
+        21,
+        27,
+        33,
+        39,
+        45,
+        51,
+        63,
+        81,
+        100
+      ]
+    },
+    "lib/reducers.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        7,
+        13
+      ]
+    },
+    "lib/sagas.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        11,
+        18
+      ]
+    },
+    "lib/session.js": {
+      "expectCount": 16,
+      "actualCount": 2,
+      "undocumentLines": [
+        2,
+        3,
+        34,
+        51,
+        55,
+        61,
+        65,
+        69,
+        81,
+        85,
+        89,
+        93,
+        97,
+        101
+      ]
+    },
+    "lib/solidity/actions/index.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        2
+      ]
+    },
+    "lib/solidity/reducers.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        5,
+        14,
+        24
+      ]
+    },
+    "lib/solidity/sagas.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        2,
+        13,
+        30
+      ]
+    },
+    "lib/solidity/selectors.js": {
+      "expectCount": 8,
+      "actualCount": 0,
+      "undocumentLines": [
+        6,
+        8,
+        13,
+        19,
+        31,
+        38,
+        44,
+        56
+      ]
+    },
+    "lib/trace/actions/index.js": {
+      "expectCount": 8,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        2,
+        6,
+        7,
+        11,
+        12,
+        16,
+        17
+      ]
+    },
+    "lib/trace/reducers.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        5,
+        13
+      ]
+    },
+    "lib/trace/sagas.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        2,
+        10,
+        37
+      ]
+    },
+    "lib/trace/selectors.js": {
+      "expectCount": 5,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        5,
+        8,
+        10,
+        12
+      ]
+    },
+    "lib/types/contract.js": {
+      "expectCount": 9,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        2,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    "lib/web3/index.js": {
+      "expectCount": 8,
+      "actualCount": 2,
+      "undocumentLines": [
+        7,
+        9,
+        10,
+        11,
+        58,
+        73
+      ]
+    }
+  }
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">lib/views/instruction.js | truffle-debugger</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Core functionality for debugging Solidity files built with Truffle"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="truffle-debugger"><meta property="twitter:description" content="Core functionality for debugging Solidity files built with Truffle"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/debugger.js~Debugger.html">Debugger</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/session.js~Session.html">Session</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#context">context</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/context/context.js~Context.html">Context</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/context/set.js~ContextSet.html">ContextSet</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#reducers">reducers</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/reducers/callstack.js~CallstackReducer.html">CallstackReducer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/reducers/functionDepth.js~FunctionDepthReducer.html">FunctionDepthReducer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/reducers/index.js~StateReducer.html">StateReducer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/reducers/reducer.js~Reducer.html">Reducer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/reducers/traceIndex.js~TraceIndexReducer.html">TraceIndexReducer</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#types">types</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/types/contract.js~Contract.html">Contract</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#views">views</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/views/instruction.js~InstructionView.html">InstructionView</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/views/session.js~SessionView.html">SessionView</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/views/state.js~StateView.html">StateView</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/views/step.js~StepView.html">StepView</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#web3">web3</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/web3/index.js~Web3Adapter.html">Web3Adapter</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">lib/views/instruction.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">export default class InstructionView {
+  isJump(instruction) {
+    return instruction.name != &quot;JUMPDEST&quot; &amp;&amp; instruction.name.indexOf(&quot;JUMP&quot;) == 0;
+  }
+
+  isCall(instruction) {
+    return instruction.name == &quot;CALL&quot; || instruction.name == &quot;DELEGATECALL&quot;;
+  }
+
+  isCreate(instruction) {
+    return instruction.name == &quot;CREATE&quot;;
+  }
+
+  isHalting(instruction) {
+    return instruction.name == &quot;STOP&quot; || instruction.name == &quot;RETURN&quot;;
+  }
+
+  hasMultiLineCodeRange(instruction) {
+    return instruction.range.start.line != instruction.range.end.line;
+  }
+}
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.0.4)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

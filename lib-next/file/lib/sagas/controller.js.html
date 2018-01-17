@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">lib/sagas/controller.js | truffle-debugger</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Core functionality for debugging Solidity files built with Truffle"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="truffle-debugger"><meta property="twitter:description" content="Core functionality for debugging Solidity files built with Truffle"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/debugger.js~Debugger.html">Debugger</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/session.js~Session.html">Session</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#actions">actions</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-call">call</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-create">create</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-returnCall">returnCall</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-beginStep">beginStep</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-endTrace">endTrace</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-interrupt">interrupt</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-stepInto">stepInto</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-stepNext">stepNext</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-stepOut">stepOut</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-stepOver">stepOver</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-tick">tick</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-tock">tock</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-jump">jump</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CALL">CALL</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CREATE">CREATE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-RETURN">RETURN</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-BEGIN_STEP">BEGIN_STEP</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-END_OF_TRACE">END_OF_TRACE</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-INTERRUPT">INTERRUPT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-STEP_INTO">STEP_INTO</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-STEP_NEXT">STEP_NEXT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-STEP_OUT">STEP_OUT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-STEP_OVER">STEP_OVER</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-TICK">TICK</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-TOCK">TOCK</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-JUMP">JUMP</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#context">context</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/context/context.js~Context.html">Context</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/context/set.js~ContextSet.html">ContextSet</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#effects">effects</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-view">view</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#reducers">reducers</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/reducers/reducer.js~Reducer.html">Reducer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-reduce">reduce</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-reduce">reduce</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-spelunk">spelunk</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-reduce">reduce</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-reduce">reduce</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-reduceState">reduceState</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#sagas">sagas</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-watchForCalls">watchForCalls</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-advance">advance</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-stepInto">stepInto</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-stepNext">stepNext</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-stepOut">stepOut</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-stepOver">stepOver</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-watchControls">watchControls</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-watchForJumps">watchForJumps</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-rootSaga">rootSaga</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-sessionSaga">sessionSaga</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#selectors">selectors</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-contextSet">contextSet</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-currentCall">currentCall</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-traceStep">traceStep</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-currentContext">currentContext</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-currentState">currentState</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-nextStep">nextStep</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#types">types</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/types/contract.js~Contract.html">Contract</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#web3">web3</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/lib/web3/index.js~Web3Adapter.html">Web3Adapter</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">lib/sagas/controller.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import debugModule from &quot;debug&quot;;
+const debug = debugModule(&quot;debugger:sagas:controller&quot;);
+
+import { put, call, race, take } from &apos;redux-saga/effects&apos;;
+import { view } from &quot;../effects&quot;;
+
+import * as actions from &apos;../actions/controller&apos;;
+import { nextStep, currentState } from &quot;../selectors&quot;;
+
+const controlSagas = {
+  [actions.STEP_NEXT]: stepNext,
+  [actions.STEP_OVER]: stepOver,
+  [actions.STEP_INTO]: stepInto,
+  [actions.STEP_OUT]: stepOut
+};
+
+export default function* watchControls() {
+  while (true) {
+    debug(&quot;waiting for control action&quot;);
+    let action = yield take(Object.keys(controlSagas));
+    debug(&quot;got control action&quot;);
+    let saga = controlSagas[action.type];
+
+    yield put(actions.beginStep(action.type));
+
+    yield race({
+      exec: call(saga),
+      interrupt: take(actions.INTERRUPT)
+    });
+  }
+}
+
+/**
+ * Advance the state by one instruction
+ */
+export function* advance() {
+  let remaining = yield view(currentState.trace.stepsRemaining);
+
+  if (remaining &gt; 0) {
+    // updates state for current step
+    yield put(actions.tick());
+
+    // updates step to next step in trace
+    yield put(actions.tock());
+
+    remaining--; // local update, just for convenience
+  }
+
+  if (remaining == 0) {
+    yield put(actions.endTrace());
+  }
+}
+
+/**
+ * stepNext - step to the next logical code segment
+ *
+ * Note: It might take multiple instructions to express the same section of code.
+ * &quot;Stepping&quot;, then, is stepping to the next logical item, not stepping to the next
+ * instruction. See advance() if you&apos;d like to advance by one instruction.
+ */
+export function* stepNext () {
+  const startingRange = yield view(nextStep.solidity.sourceRange);
+  var nextRange;
+
+  do {
+    // advance at least once step
+    yield* advance();
+
+    // and check the next source range
+    nextRange = yield view(nextStep.solidity.sourceRange);
+
+    // if the next step&apos;s source range is still the same, keep going
+  } while (
+    nextRange.start == startingRange.start &amp;&amp;
+    nextRange.length == startingRange.length
+  );
+}
+
+/**
+ * stepInto - step into the current function
+ *
+ * Conceptually this is easy, but from a programming standpoint it&apos;s hard.
+ * Code like `getBalance(msg.sender)` might be highlighted, but there could
+ * be a number of different intermediate steps (like evaluating `msg.sender`)
+ * before `getBalance` is stepped into. This function will step into the first
+ * function available (where instruction.jump == &quot;i&quot;), ignoring any intermediate
+ * steps that fall within the same code range. If there&apos;s a step encountered
+ * that exists outside of the range, then stepInto will only execute until that
+ * step.
+ */
+export function* stepInto () {
+  if (yield view(nextStep.evm.isJump)) {
+    yield* stepNext();
+
+    return;
+  }
+
+  if (yield view(nextStep.solidity.isMultiline)) {
+    yield* stepOver();
+
+    return;
+  }
+
+  const startingDepth = yield view(currentState.solidity.functionDepth);
+  const startingRange = yield view(nextStep.solidity.sourceRange);
+  var currentDepth;
+  var nextRange;
+
+  do {
+    yield* stepNext();
+
+    currentDepth = yield view(currentState.solidity.functionDepth);
+    nextRange = yield view(nextStep.solidity.sourceRange);
+
+  } while (
+    // the function stack has not increased,
+    currentDepth &lt;= initialDepth &amp;&amp;
+
+    // the next source range begins on or after the starting range
+    nextRange.start &gt;= startingRange.start &amp;&amp;
+
+    // and the next range ends on or before the starting range ends
+    (nextRange.start + nextRange.length) &lt;=
+      (startingRange.start + startingRange.length)
+  );
+}
+
+/**
+ * Step out of the current function
+ *
+ * This will run until the debugger encounters a decrease in function depth.
+ */
+export function* stepOut () {
+  if (yield view(nextStep.solidity.isMultiline)) {
+    yield *stepOver();
+
+    return;
+  }
+
+  const startingDepth = yield view(currentState.solidity.functionDepth);
+  var currentDepth;
+
+  do {
+    yield* stepNext();
+
+    currentDepth = yield view(currentState.solidity.functionDepth);
+
+  } while(currentDepth &lt;= startingDepth);
+}
+
+/**
+ * stepOver - step over the current line
+ *
+ * Step over the current line. This will step to the next instruction that
+ * exists on a different line of code within the same function depth.
+ */
+export function* stepOver () {
+  const startingDepth = yield view(currentState.solidity.functionDepth);
+  const startingRange = yield view(nextStep.solidity.sourceRange);
+  var currentDepth;
+  var nextRange;
+
+  do {
+    yield* stepNext();
+
+    currentDepth = yield view(currentState.solidity.functionDepth);
+    nextRange = yield view(nextStep.solidity.sourceRange);
+
+  } while (
+    // keep stepping provided:
+    //
+    // we haven&apos;t jumped out
+    !(currentDepth &lt; startingDepth) &amp;&amp;
+
+    // either: function depth is greater than starting (ignore function calls)
+    // or, if we&apos;re at the same depth, keep stepping until we&apos;re on a new
+    // line.
+    (currentDepth &gt; startingDepth ||
+      nextRange.lines.start.line == startingRange.lines.start.line)
+  )
+}
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.0.4)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
